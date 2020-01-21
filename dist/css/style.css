@@ -25,9 +25,9 @@
 }
 
 .button:hover {
-  background: #797979;
+  background: #586261;
   color: #1e272e;
-  border: 1px solid #797979;
+  border: 1px solid #586261;
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
@@ -114,15 +114,15 @@
 
 .navbar .navbar-nav .nav-item .button {
   letter-spacing: 1px;
-  background: #797979;
-  color: #1e272e;
-  border: 1px solid #797979;
+  background: #3c40c6;
+  color: #f2f2f2;
+  border: 1px solid #3c40c6;
   font-weight: 900;
 }
 
 .navbar .navbar-nav .nav-item .button:hover {
-  background: #3c40c6;
-  color: #f2f2f2;
+  background: #f2f2f2;
+  color: #3c40c6;
   border: 1px solid #3c40c6;
 }
 
@@ -140,13 +140,13 @@
 
 .modal-footer {
   padding: 0.3rem;
-  background: #797979;
+  background: #586261;
 }
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.4)), to(rgba(121, 121, 121, 0.2))), url("../img/hero5.jpg") no-repeat center;
-  background: linear-gradient(rgba(30, 39, 46, 0.4), rgba(121, 121, 121, 0.2)), url("../img/hero5.jpg") no-repeat center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 39, 46, 0.5)), to(rgba(88, 98, 97, 0.1))), url("../img/hero5.jpg") no-repeat top right;
+  background: linear-gradient(rgba(30, 39, 46, 0.5), rgba(88, 98, 97, 0.1)), url("../img/hero5.jpg") no-repeat top right;
   background-size: cover;
   position: relative;
   padding: 10vh 0;
@@ -172,15 +172,15 @@
 
 .hero .hero-text .hero-button .button {
   letter-spacing: 1px;
-  background: #797979;
-  color: #1e272e;
-  border: 1px solid #797979;
+  background: #3c40c6;
+  color: #f2f2f2;
+  border: 1px solid #3c40c6;
   font-weight: 900;
 }
 
 .hero .hero-text .hero-button .button:hover {
-  background: #3c40c6;
-  color: #f2f2f2;
+  background: #f2f2f2;
+  color: #3c40c6;
   border: 1px solid #3c40c6;
 }
 
@@ -190,7 +190,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 100px solid #797979;
+  border-bottom: 100px solid #586261;
   -webkit-clip-path: polygon(100% 93%, 0% 100%, 100% 100%);
           clip-path: polygon(100% 93%, 0% 100%, 100% 100%);
 }
@@ -241,7 +241,7 @@
 }
 
 .what-is {
-  background: #797979;
+  background: #586261;
   padding: 5vh 0;
 }
 
@@ -415,11 +415,11 @@
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #797979;
+  background-color: #586261;
 }
 
 .sticky-mobile {
-  background: #797979;
+  background: #586261;
   color: #1e272e;
   width: 100vw;
   max-height: 53px;
@@ -553,7 +553,7 @@
     font-weight: 600;
   }
   .services::after {
-    border-bottom: 100px solid #797979;
+    border-bottom: 100px solid #586261;
     -webkit-clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
   }
@@ -607,7 +607,7 @@
     padding: 0 4%;
   }
   .services::after {
-    border-bottom: 80px solid #797979;
+    border-bottom: 80px solid #586261;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
   }
@@ -648,12 +648,12 @@ body {
 
 ::-moz-selection {
   color: #1e272e;
-  background: #797979;
+  background: #586261;
 }
 
 ::selection {
   color: #1e272e;
-  background: #797979;
+  background: #586261;
 }
 
 .light {
