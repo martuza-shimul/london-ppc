@@ -1,5 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import "./variables";
+@import "./global";
+@import "./navbar";
+@import "./modal";
+@import "./hero";
+@import "./feature";
+@import "./h-works";
+// @import "./service";
+@import "./contact";
+@import "./area-cover";
+@import "./footer";
+// @import "./page-header";
+@import "./media";
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	position: relative;
+	background: $text-rev;
+	// height: 100%;
+	// overflow-y: scroll;
+}
+
+.navbar-nav {
+	.active {
+		// background: rgba($white, 0.9);
+		background: lighten($primary-color, 5);
+		// color: $text-color;
+		// background: lighten($primary-color, 30);
+		// .nav-link {
+		// 	color: $text-rev;
+		// }
+	}
+}
+::selection {
+	color: $text-color;
+	background: $secondary-color;
+}
+
+.light {
+	color: $text-rev;
+}
+
+.safety-logos {
+	margin: 5vh 0 2vh 0;
+	.sl-single {
+		margin: 2vh 0;
+	}
 }

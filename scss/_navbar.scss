@@ -1,0 +1,62 @@
+.navbar {
+	color: $text-rev;
+	text-transform: uppercase;
+	position: fixed;
+	// top: 0;
+	// left: 0;
+	height: 85px;
+	width: 100vw;
+	padding: 0 10vw;
+	z-index: 99;
+	transition: 0.4s ease-out;
+	// clip-path: polygon(0% 0%, 100% 0%, 100% 20%, 50% 30%, 0% 20%);
+	.navbar-brand {
+		color: $white;
+	}
+	.navbar-nav {
+		.nav-item {
+			.nav-link {
+				color: $text-rev;
+				padding: 0.5rem 1rem;
+				font-weight: 600;
+				letter-spacing: 1px;
+				border-radius: 3rem;
+
+				&:hover {
+					// background: rgba($primary-color, 0.5);
+					background: lighten($primary-color, 5);
+				}
+			}
+			.button {
+				letter-spacing: 1px;
+				background: $secondary-color;
+				color: $text-color;
+				border: 1px solid $secondary-color;
+				font-weight: 900;
+				&:hover {
+					background: $primary-color;
+					color: $text-rev;
+					border: 1px solid $primary-color;
+				}
+			}
+		}
+	}
+
+	&.scrolled {
+		height: 65px;
+		background: rgba($text-color, 0.8);
+
+		// #button {
+		// 	background: $text-rev;
+		// 	border: 1px solid $text-rev;
+		// 	color: $primary-color;
+		// 	&:hover {
+		// 		background: $secondary-color;
+		// 		border: 1px solid $secondary-color;
+		// 		transition: 0.6s ease-in;
+		// 		z-index: 3;
+		// 		color: $text-rev;
+		// 	}
+		// }
+	}
+}
