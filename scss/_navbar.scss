@@ -34,9 +34,9 @@
 				border: 1px solid $primary-color;
 				font-weight: 900;
 				&:hover {
-					background: $text-rev;
-					color: $primary-color;
-					border: 1px solid $primary-color;
+					background: $secondary-color;
+					color: $white;
+					border: 1px solid $white;
 				}
 			}
 		}

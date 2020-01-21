@@ -1,11 +1,15 @@
 .hero {
 	height: 100vh;
 	background: linear-gradient(
-			rgba($text-color, 0.5),
-			rgba($secondary-color, 0.1)
+			rgba($primary-color, 0.5),
+			rgba($secondary-color, 0.3)
 		),
-		url("../img/hero5.jpg") no-repeat top right;
+		url("../img/hero5.jpg") no-repeat top;
 	background-size: cover;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+	// perspective: 2px;
+	// overflow-y: auto;
 	position: relative;
 	padding: 10vh 0;
 	color: $text-color;
@@ -22,18 +26,32 @@
 		// margin: 0 auto;
 		.heading {
 			// margin-top: 10vh;
-			padding: 5vh 2vh;
+			padding: 5vh 2vh 2vh 2vh;
 			// background: rgba($background, 0.4);
 			// clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 			border-radius: 5rem;
 			h1 {
-				color: $text-rev;
+				color: $white;
 				font-size: 2.6rem;
 				font-weight: 900;
 				text-align: left;
+				letter-spacing: 2px;
+			}
+		}
+		.sub-heading {
+			// color: lighten($text-color, 70);
+			// color: $card-back;
+			color: $text-rev;
+			padding: 1vh 2vh 5vh 2vh;
+			h5 {
+				font-size: 1.6rem;
+				font-weight: 700;
+				letter-spacing: 1px;
 			}
 		}
 		.hero-button {
+			// margin-top: 5rem;
+			padding: 2vh;
 			.button {
 				letter-spacing: 1px;
 				background: $primary-color;
@@ -41,9 +59,9 @@
 				border: 1px solid $primary-color;
 				font-weight: 900;
 				&:hover {
-					background: $text-rev;
-					color: $primary-color;
-					border: 1px solid $primary-color;
+					background: $secondary-color;
+					color: $white;
+					border: 1px solid $white;
 				}
 			}
 		}
