@@ -1,8 +1,8 @@
 .hero {
 	height: 100vh;
 	background: linear-gradient(
-			rgba($primary-color, 0.5),
-			rgba($secondary-color, 0.3)
+			rgba($primary-color, 0.4),
+			rgba($secondary-color, 0.4)
 		),
 		url("../img/hero5.jpg") no-repeat top;
 	background-size: cover;
@@ -45,8 +45,9 @@
 			padding: 1vh 2vh 5vh 2vh;
 			h5 {
 				font-size: 1.6rem;
-				font-weight: 700;
+				font-weight: 500;
 				letter-spacing: 1px;
+				font-family: "Josefin Sans", sans-serif;
 			}
 		}
 		.hero-button {
@@ -60,6 +61,18 @@
 				font-weight: 900;
 				&:hover {
 					background: $secondary-color;
+					color: $white;
+					border: 1px solid $white;
+				}
+			}
+			.button-second {
+				background: $background;
+				// box-shadow: 3px 0px 4px 0px $shad;
+				border: 1px solid $primary-color;
+				color: $primary-color;
+
+				&:hover {
+					background: $primary-color;
 					color: $white;
 					border: 1px solid $white;
 				}

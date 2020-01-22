@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster|Montserrat&display=swap");
 .heading {
   padding: 0 0 30px 0;
 }
@@ -6,18 +6,19 @@
 .heading h1 {
   font-size: 2.5rem;
   font-weight: 900;
-  color: #3c40c6;
+  color: #05386b;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .button {
-  background: #3c40c6;
+  background: #05386b;
   color: #f2f2f2;
   padding: 0.8rem 1.5rem;
   font-weight: 600;
-  border: 1px solid #3c40c6;
+  border: 1px solid #05386b;
   border-radius: 2rem;
   -webkit-box-shadow: 3px 0px 8px 2px #808e9b;
           box-shadow: 3px 0px 8px 2px #808e9b;
@@ -25,9 +26,9 @@
 }
 
 .button:hover {
-  background: #586261;
+  background: #379683;
   color: #1e272e;
-  border: 1px solid #586261;
+  border: 1px solid #379683;
   -webkit-transition: 0.6s ease-in;
   transition: 0.6s ease-in;
   z-index: 3;
@@ -44,7 +45,7 @@
 
 .form-group input,
 .form-group textarea {
-  border-color: #3c40c6;
+  border-color: #05386b;
 }
 
 .equal {
@@ -86,7 +87,7 @@
 
 .navbar {
   color: #f2f2f2;
-  text-transform: uppercase;
+  text-transform: capitalize;
   position: fixed;
   height: 85px;
   width: 100vw;
@@ -103,32 +104,43 @@
 .navbar .navbar-nav .nav-item .nav-link {
   color: #f2f2f2;
   padding: 0.5rem 1rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   border-radius: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.1rem;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  background: #5053cc;
+  background: #064583;
 }
 
 .navbar .navbar-nav .nav-item .button {
   letter-spacing: 1px;
-  background: #3c40c6;
+  background: #05386b;
   color: #f2f2f2;
-  border: 1px solid #3c40c6;
+  border: 1px solid #05386b;
   font-weight: 900;
+  text-transform: capitalize;
 }
 
 .navbar .navbar-nav .nav-item .button:hover {
-  background: #586261;
+  background: #379683;
   color: #fff;
   border: 1px solid #fff;
 }
 
 .navbar.scrolled {
   height: 65px;
-  background: rgba(30, 39, 46, 0.8);
+  background: rgba(55, 150, 131, 0.8);
+}
+
+.navbar.scrolled .navbar-nav .nav-item .nav-link {
+  color: #f2f2f2;
+}
+
+.navbar.scrolled .navbar-nav .nav-item .button {
+  color: #f2f2f2;
 }
 
 .quote-engine-wrapper h5 {
@@ -140,13 +152,13 @@
 
 .modal-footer {
   padding: 0.3rem;
-  background: #586261;
+  background: #379683;
 }
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 64, 198, 0.5)), to(rgba(88, 98, 97, 0.3))), url("../img/hero5.jpg") no-repeat top;
-  background: linear-gradient(rgba(60, 64, 198, 0.5), rgba(88, 98, 97, 0.3)), url("../img/hero5.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 56, 107, 0.4)), to(rgba(55, 150, 131, 0.4))), url("../img/hero5.jpg") no-repeat top;
+  background: linear-gradient(rgba(5, 56, 107, 0.4), rgba(55, 150, 131, 0.4)), url("../img/hero5.jpg") no-repeat top;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
@@ -180,8 +192,9 @@
 
 .hero .hero-text .sub-heading h5 {
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: 1px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .hero .hero-text .hero-button {
@@ -190,14 +203,26 @@
 
 .hero .hero-text .hero-button .button {
   letter-spacing: 1px;
-  background: #3c40c6;
+  background: #05386b;
   color: #f2f2f2;
-  border: 1px solid #3c40c6;
+  border: 1px solid #05386b;
   font-weight: 900;
 }
 
 .hero .hero-text .hero-button .button:hover {
-  background: #586261;
+  background: #379683;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.hero .hero-text .hero-button .button-second {
+  background: #d2dae2;
+  border: 1px solid #05386b;
+  color: #05386b;
+}
+
+.hero .hero-text .hero-button .button-second:hover {
+  background: #05386b;
   color: #fff;
   border: 1px solid #fff;
 }
@@ -208,7 +233,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  border-bottom: 100px solid #586261;
+  border-bottom: 100px solid #379683;
   -webkit-clip-path: polygon(100% 93%, 0% 100%, 100% 100%);
           clip-path: polygon(100% 93%, 0% 100%, 100% 100%);
 }
@@ -219,7 +244,7 @@
 }
 
 .hero-shapes .hs-content {
-  background: rgba(60, 64, 198, 0.7);
+  background: rgba(5, 56, 107, 0.7);
   padding: 5% 10% 5% 5%;
   -webkit-clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
           clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
@@ -259,7 +284,7 @@
 }
 
 .what-is {
-  background: #586261;
+  background: #379683;
   padding: 5vh 0;
 }
 
@@ -290,7 +315,7 @@
 .feature-wrapper .feature-icon img {
   background: #f2f2f2;
   padding: 1.2rem;
-  border: 5px solid #3c40c6;
+  border: 5px solid #05386b;
   border-radius: 50%;
 }
 
@@ -342,7 +367,7 @@
 }
 
 .contact {
-  background: #3c40c6;
+  background: #05386b;
   padding: 5vh 0;
 }
 
@@ -380,20 +405,21 @@
 
 .contact .contact-form .form-group input,
 .contact .contact-form .form-group textarea {
-  border-color: #3c40c6;
+  border-color: #05386b;
 }
 
 .contact .contact-form .button {
-  background: #1e272e;
-  color: #f2f2f2;
+  background: #d2dae2;
+  color: #05386b;
   padding: 10px 30px;
-  border-color: #1e272e;
+  border-color: #05386b;
   font-size: 1.3rem;
 }
 
 .contact .contact-form .button:hover {
-  background: #f2f2f2;
-  color: #1e272e;
+  background: #379683;
+  color: #f2f2f2;
+  border-color: #fff;
   -webkit-transform: scale(1.03, 1.03);
           transform: scale(1.03, 1.03);
   -webkit-transition: 0.3s ease-in;
@@ -433,12 +459,12 @@
 
 .area-cover .tabs .indicator {
   height: 3px;
-  background-color: #586261;
+  background-color: #379683;
 }
 
 .sticky-mobile {
-  background: #586261;
-  color: #1e272e;
+  background: #379683;
+  color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
   position: fixed;
@@ -476,7 +502,7 @@
 }
 
 .footer {
-  background: #3c40c6;
+  background: #379683;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
@@ -571,7 +597,7 @@
     font-weight: 600;
   }
   .services::after {
-    border-bottom: 100px solid #586261;
+    border-bottom: 100px solid #379683;
     -webkit-clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 96%, 100% 100%);
   }
@@ -625,7 +651,7 @@
     padding: 0 4%;
   }
   .services::after {
-    border-bottom: 80px solid #586261;
+    border-bottom: 80px solid #379683;
     -webkit-clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
             clip-path: polygon(0% 100%, 0% 98%, 100% 100%);
   }
@@ -661,17 +687,17 @@ body {
 }
 
 .navbar-nav .active {
-  background: #5053cc;
+  background: #064583;
 }
 
 ::-moz-selection {
   color: #1e272e;
-  background: #586261;
+  background: #379683;
 }
 
 ::selection {
   color: #1e272e;
-  background: #586261;
+  background: #379683;
 }
 
 .light {

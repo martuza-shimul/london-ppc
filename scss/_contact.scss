@@ -44,16 +44,17 @@
 			}
 		}
 		.button {
-			background: $text-color;
-			color: $text-rev;
+			background: $background;
+			color: $primary-color;
 
 			padding: 10px 30px;
-			border-color: $text-color;
+			border-color: $primary-color;
 			font-size: 1.3rem;
 
 			&:hover {
-				background: $text-rev;
-				color: $text-color;
+				background: $secondary-color;
+				color: $text-rev;
+				border-color: $white;
 				transform: scale(1.03, 1.03);
 				transition: 0.3s ease-in;
 			}

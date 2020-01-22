@@ -1,6 +1,6 @@
 .navbar {
 	color: $text-rev;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	position: fixed;
 	// top: 0;
 	// left: 0;
@@ -18,9 +18,11 @@
 			.nav-link {
 				color: $text-rev;
 				padding: 0.5rem 1rem;
-				font-weight: 600;
+				font-weight: 400;
 				letter-spacing: 1px;
 				border-radius: 3rem;
+				font-family: "Josefin Sans", sans-serif;
+				font-size: 1.1rem;
 
 				&:hover {
 					// background: rgba($primary-color, 0.5);
@@ -33,6 +35,7 @@
 				color: $text-rev;
 				border: 1px solid $primary-color;
 				font-weight: 900;
+				text-transform: capitalize;
 				&:hover {
 					background: $secondary-color;
 					color: $white;
@@ -44,8 +47,17 @@
 
 	&.scrolled {
 		height: 65px;
-		background: rgba($text-color, 0.8);
-
+		background: rgba($secondary-color, 0.8);
+		.navbar-nav {
+			.nav-item {
+				.nav-link {
+					color: $text-rev;
+				}
+				.button {
+					color: $text-rev;
+				}
+			}
+		}
 		// #button {
 		// 	background: $text-rev;
 		// 	border: 1px solid $text-rev;
