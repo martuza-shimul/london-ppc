@@ -22,7 +22,7 @@
   border-radius: 2rem;
   -webkit-box-shadow: 3px 0px 8px 2px #808e9b;
           box-shadow: 3px 0px 8px 2px #808e9b;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .button:hover {
@@ -157,8 +157,8 @@
 
 .hero {
   height: 100vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 56, 107, 0.4)), to(rgba(55, 150, 131, 0.4))), url("../img/hero5.jpg") no-repeat top;
-  background: linear-gradient(rgba(5, 56, 107, 0.4), rgba(55, 150, 131, 0.4)), url("../img/hero5.jpg") no-repeat top;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(55, 150, 131, 0.6))), url("../img/hero5.jpg") no-repeat top;
+  background: linear-gradient(rgba(55, 150, 131, 0.6)), url("../img/hero5.jpg") no-repeat top;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
