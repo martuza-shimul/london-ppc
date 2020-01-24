@@ -5,6 +5,7 @@
 
 .heading h1 {
   font-size: 2.5rem;
+  line-height: 3.5rem;
   font-weight: 900;
   color: #05386b;
   text-transform: uppercase;
@@ -369,7 +370,6 @@
 
 .why-us .heading h1 {
   color: #fff;
-  text-transform: capitalize;
 }
 
 .why-us .wu-content-wrapper .wu-content {
@@ -384,14 +384,38 @@
 }
 
 .why-us .wu-content-image {
-  border: 1px solid #808e9b;
   border-radius: 0.5rem;
   padding: 1rem;
-  background: #808e9b;
+  background: #05386b;
+}
+
+.what-we-do,
+.what-we-do-dif {
+  padding: 10vh 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.what-we-do-dif {
+  background: #05386b;
+  color: #f2f2f2;
+  padding: 5vh 0;
+}
+
+.what-we-do-dif .heading h1 {
+  color: #fff;
+}
+
+.what-we-do-dif .wwdd-content-wrapper {
+  margin-left: 1.5rem;
+}
+
+.what-we-do-dif .wwdd-content-wrapper ul li {
+  line-height: 2rem;
 }
 
 .contact {
-  background: #05386b;
+  background: #379683;
   padding: 5vh 0;
 }
 
@@ -715,13 +739,13 @@ body {
 }
 
 ::-moz-selection {
-  color: #1e272e;
-  background: #379683;
+  color: #f2f2f2;
+  background: #05386b;
 }
 
 ::selection {
-  color: #1e272e;
-  background: #379683;
+  color: #f2f2f2;
+  background: #05386b;
 }
 
 .light {

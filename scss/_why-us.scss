@@ -6,7 +6,7 @@
 	.heading {
 		h1 {
 			color: $white;
-			text-transform: capitalize;
+			// text-transform: capitalize;
 		}
 	}
 	.wu-content-wrapper {
@@ -22,9 +22,9 @@
 		}
 	}
 	.wu-content-image {
-		border: 1px solid $shad;
+		// border: 1px solid $shad;
 		border-radius: 0.5rem;
 		padding: 1rem;
-		background: $shad;
+		background: $primary-color;
 	}
 }
