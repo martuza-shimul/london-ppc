@@ -1,20 +1,17 @@
 .contact {
-	background: $secondary-color;
-	padding: 5vh 0;
-	.heading {
-		h1 {
-			color: $text-rev;
-		}
-	}
+	// background: $secondary-color;
+	padding: 8vh 0;
+
 	.contact-box {
-		padding: 10px 0;
+		// padding: 10px 0;
 
 		h3 {
 			font-size: 1.6rem;
+			line-height: 2.2rem;
 			font-weight: 600;
 			margin: 5px 0 30px 0;
-			color: $text-rev;
-			text-transform: uppercase;
+			color: $text-color;
+			text-transform: capitalize;
 		}
 		p {
 			// img {
@@ -22,13 +19,13 @@
 			// }
 			span {
 				font-size: 1.1rem;
-				color: $text-rev;
+				color: $text-color;
 				font-weight: 500;
 				margin-left: 5px;
 
 				a {
 					text-decoration: none;
-					color: $text-rev;
+					color: $text-color;
 				}
 			}
 		}
@@ -44,8 +41,8 @@
 			}
 		}
 		.button {
-			background: $background;
-			color: $primary-color;
+			background: $primary-color;
+			color: $text-rev;
 
 			padding: 10px 30px;
 			border-color: $primary-color;

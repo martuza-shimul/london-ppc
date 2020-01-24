@@ -556,11 +556,11 @@
 }
 
 .experience .ec-iconbox {
-  padding: 1.2rem 0;
+  padding: 1rem 0;
 }
 
 .experience .ec-iconbox .ec-icon-holder {
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0;
 }
 
 .experience .ec-iconbox .ec-icon-heading {
@@ -574,36 +574,28 @@
 }
 
 .contact {
-  background: #379683;
-  padding: 5vh 0;
-}
-
-.contact .heading h1 {
-  color: #f2f2f2;
-}
-
-.contact .contact-box {
-  padding: 10px 0;
+  padding: 8vh 0;
 }
 
 .contact .contact-box h3 {
   font-size: 1.6rem;
+  line-height: 2.2rem;
   font-weight: 600;
   margin: 5px 0 30px 0;
-  color: #f2f2f2;
-  text-transform: uppercase;
+  color: #1e272e;
+  text-transform: capitalize;
 }
 
 .contact .contact-box p span {
   font-size: 1.1rem;
-  color: #f2f2f2;
+  color: #1e272e;
   font-weight: 500;
   margin-left: 5px;
 }
 
 .contact .contact-box p span a {
   text-decoration: none;
-  color: #f2f2f2;
+  color: #1e272e;
 }
 
 .contact .contact-form {
@@ -616,8 +608,8 @@
 }
 
 .contact .contact-form .button {
-  background: #d2dae2;
-  color: #05386b;
+  background: #05386b;
+  color: #f2f2f2;
   padding: 10px 30px;
   border-color: #05386b;
   font-size: 1.3rem;
