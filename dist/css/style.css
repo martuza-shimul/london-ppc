@@ -414,6 +414,130 @@
   line-height: 2rem;
 }
 
+.process {
+  padding: 8vh 0;
+}
+
+.circle {
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: #379683;
+  color: #f2f2f2;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.how-it-works.row .col-7 h5 {
+  color: #05386b;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.how-it-works.row .col-7 p {
+  color: #1e272e;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.how-it-works.row .col-2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #379683;
+  z-index: 1;
+}
+
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+
+.how-it-works.row .col-2.new-full::after {
+  height: 100%;
+  left: 50%;
+}
+
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: calc(50% - 3px);
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+
+.timeline hr {
+  border-top: 3px solid #379683;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+
+.timeline .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.timeline .corner {
+  border: 3px solid #379683;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+
 .contact {
   background: #379683;
   padding: 5vh 0;
@@ -511,7 +635,7 @@
 }
 
 .sticky-mobile {
-  background: #379683;
+  background: #05386b;
   color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
@@ -550,7 +674,7 @@
 }
 
 .footer {
-  background: #379683;
+  background: #05386b;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
