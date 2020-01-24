@@ -386,7 +386,7 @@
 .why-us .wu-content-image {
   border-radius: 0.5rem;
   padding: 1rem;
-  background: #05386b;
+  background: #f2f2f2;
 }
 
 .what-we-do,
@@ -397,13 +397,8 @@
 }
 
 .what-we-do-dif {
-  background: #05386b;
-  color: #f2f2f2;
+  background: #d2dae2;
   padding: 5vh 0;
-}
-
-.what-we-do-dif .heading h1 {
-  color: #fff;
 }
 
 .what-we-do-dif .wwdd-content-wrapper {
@@ -538,6 +533,46 @@
   top: calc(50% - 3px);
 }
 
+.experience {
+  padding: 10vh 0;
+  background: #d2dae2;
+}
+
+.experience .sub-heading,
+.experience .ec-heading {
+  color: #50687b;
+  padding-bottom: 2rem;
+}
+
+.experience .sub-heading h5,
+.experience .ec-heading h5 {
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  font-weight: 700;
+}
+
+.experience .ec-heading {
+  color: #1e272e;
+}
+
+.experience .ec-iconbox {
+  padding: 1.2rem 0;
+}
+
+.experience .ec-iconbox .ec-icon-holder {
+  margin: 0.5rem 0 1rem 0;
+}
+
+.experience .ec-iconbox .ec-icon-heading {
+  color: #05386b;
+}
+
+.experience .ec-iconbox .ec-icon-heading h5 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
 .contact {
   background: #379683;
   padding: 5vh 0;
@@ -635,7 +670,7 @@
 }
 
 .sticky-mobile {
-  background: #05386b;
+  background: #379683;
   color: #f2f2f2;
   width: 100vw;
   max-height: 53px;
@@ -674,12 +709,11 @@
 }
 
 .footer {
-  background: #05386b;
+  background: #379683;
   color: #f2f2f2;
   font-size: 0.8rem;
   font-weight: 500;
   padding: 15px 0;
-  margin: -1px 0;
 }
 
 .footer p {

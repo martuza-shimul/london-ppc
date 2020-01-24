@@ -25,6 +25,7 @@
 		// border: 1px solid $shad;
 		border-radius: 0.5rem;
 		padding: 1rem;
-		background: $primary-color;
+		// background: lighten($primary-color, 5);
+		background: $text-rev;
 	}
 }

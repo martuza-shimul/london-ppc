@@ -7,15 +7,16 @@
 }
 
 .what-we-do-dif {
-	background: $primary-color;
-	color: $text-rev;
+	// background: lighten($primary-color, 7);
+	background: $background;
+	// color: $text-rev;
 	padding: 5vh 0;
 
-	.heading {
-		h1 {
-			color: $white;
-		}
-	}
+	// .heading {
+	// 	h1 {
+	// 		color: $white;
+	// 	}
+	// }
 	.wwdd-content-wrapper {
 		margin-left: 1.5rem;
 		ul {
