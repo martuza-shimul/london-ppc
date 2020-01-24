@@ -8,7 +8,6 @@
   font-weight: 900;
   color: #05386b;
   text-transform: uppercase;
-  text-align: center;
   letter-spacing: 2px;
   font-family: "Josefin Sans", sans-serif;
 }
@@ -79,10 +78,6 @@
 .seo h4 {
   font-weight: 300;
   font-size: 0.5rem;
-}
-
-.map {
-  padding-bottom: 10vh;
 }
 
 .navbar {
@@ -364,6 +359,35 @@
   font-size: 1.4rem;
   font-weight: 600;
   color: rgba(30, 39, 46, 0.7);
+}
+
+.why-us {
+  background: #379683;
+  padding: 8vh 0;
+  color: #f2f2f2;
+}
+
+.why-us .heading h1 {
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.why-us .wu-content-wrapper .wu-content {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.why-us .wu-content-wrapper .wu-content .sub-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.why-us .wu-content-image {
+  border: 1px solid #808e9b;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: #808e9b;
 }
 
 .contact {
