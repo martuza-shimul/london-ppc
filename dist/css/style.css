@@ -712,6 +712,10 @@
   margin: 0;
 }
 
+.footer a {
+  color: #f2f2f2;
+}
+
 .page-header {
   height: 60vh;
   padding: 15vh 0;
