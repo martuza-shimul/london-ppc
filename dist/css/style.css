@@ -712,6 +712,43 @@
   margin: 0;
 }
 
+.page-header {
+  height: 60vh;
+  padding: 15vh 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 56, 107, 0.6)), to(rgba(55, 150, 131, 0.8))), url("../img/hero4.jpg") no-repeat bottom;
+  background: linear-gradient(rgba(5, 56, 107, 0.6), rgba(55, 150, 131, 0.8)), url("../img/hero4.jpg") no-repeat bottom;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.page-header .ph-text .ph-title {
+  text-transform: capitalize;
+  padding: 5vh 0;
+  color: #fff;
+}
+
+.page-header .ph-text .ph-title h1 {
+  font-weight: 900;
+  font-size: 2.3rem;
+  border-radius: 5rem;
+}
+
+.privacy-policy {
+  padding: 5vh 0;
+}
+
+.privacy-policy ul {
+  margin-left: 20px;
+}
+
+.privacy-policy h1,
+.privacy-policy h2,
+.privacy-policy h3,
+.privacy-policy h4,
+.privacy-policy h5 {
+  font-weight: 900;
+}
+
 @media screen and (max-width: 991px) {
   .heading h1 {
     font-size: 2.4rem;
