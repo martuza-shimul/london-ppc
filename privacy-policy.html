@@ -89,48 +89,37 @@
 									<div class="quote-engine-wrapper d-flex justify-content-center">
 										<form action="./dist/php/data.php" method="POST">
 											<div class="first">
-												<h5 class="center-align">What will be the fuel type?</h5>
+												<h5 class="center-align">Which package you would choose?</h5>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Petrol Hybrid" type="radio"  />
-														<span>Petrol Hybrid</span>
+														<input  class="with-gap" name="first" value="Basic" type="radio"  />
+														<span>Basic</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" value="Diesel" type="radio"  />
-														<span>Diesel</span>
+														<input  class="with-gap" name="first" value="Standard" type="radio"  />
+														<span>Standard</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" type="radio" value="Electric"  />
-														<span>Electric</span>
+														<input  class="with-gap" name="first" type="radio" value="Premium"  />
+														<span>Premium</span>
 													</label>
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="first" type="radio" value="Petrol"  />
-														<span>Petrol</span>
+														<input  class="with-gap" name="first" type="radio" value="Premium"  />
+														<span>Premium</span>
 													</label>
 												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="Hybrid (Petrol)"  />
-														<span>Hybrid (Petrol)</span>
-													</label>
-												</p>
-												<p>
-													<label>
-														<input  class="with-gap" name="first" type="radio" value="LPG"  />
-														<span>LPG</span>
-													</label>
-												</p>
+												
 												
 												<button onclick="handleRadioClick()"  type="button" class="btn button">Continue</button>
 											</div>
 											<div class="second hide">
-												<h5 class="center-align">What will be the Weekly price?</h5>
+												<h5 class="center-align">What will be the Weekly budget?</h5>
 												<p>
 													<label>
 														<input  class="with-gap" name="second" value="£100 - £200" type="radio"  />
@@ -196,7 +185,7 @@
 												 <button onclick="handleSecond()"  type="button" class="btn button">Continue</button> 
 												 
 											</div> -->
-											<div class="type hide">
+											<!-- <div class="type hide">
 												<h5 class="center-align">In Which area?</h5>
 												<p>
 													<label>
@@ -248,9 +237,9 @@
 												</p>
 												<button onclick="handleType()"  type="button" class="btn button">Continue</button>
 												 
-											</div>
+											</div> -->
 											<div class="third hide">
-												<h5 class="center-align">When do you want your car?</h5>
+												<h5 class="center-align">When do you want to start?</h5>
 												<p>
 													<label>
 														<input  class="with-gap" name="third" type="radio" value="As soon as possible" />
@@ -260,8 +249,8 @@
 												
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within this next week"  />
-														<span>Within this next week</span>
+														<input  class="with-gap" name="third" type="radio" value="Within this  week"  />
+														<span>Within this  week</span>
 													</label>
 												</p>
 												<p>
@@ -272,8 +261,8 @@
 												</p>
 												<p>
 													<label>
-														<input  class="with-gap" name="third" type="radio" value="Within one month"  />
-														<span>Within one month</span>
+														<input  class="with-gap" name="third" type="radio" value="Within this month"  />
+														<span>Within this month</span>
 													</label>
 												</p>
 												<p>
@@ -285,7 +274,7 @@
 												<button onclick="handleThird()"  type="button" class="btn button">Continue</button>
 											</div>
 											<div class="fourth hide">
-												<h5 class="center-align">For how long you need the car?</h5>
+												<h5 class="center-align">For how long you want to run the campaign?</h5>
 												<p>
 													<label>
 														<input  class="with-gap" name="fourth" type="radio" value="3-6 months" />
@@ -321,7 +310,7 @@
 															<input
 																type="text"
 																class="form-control"
-																placeholder="Name: "
+																placeholder="Company Name: "
 																name="first-name"
 																required
 															/>
@@ -385,7 +374,7 @@
 													</div> -->
 													<div class="col-md-12">
 															<div class="form-group">
-																	<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us about your desired car" rows="3" required></textarea>
+																	<textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Tell us about your problem and expectation" rows="3" required></textarea>
 																</div>
 													</div>
 													

@@ -89,21 +89,21 @@ const handlePrice = () => {
 // 	}
 // };
 
-const handleType = () => {
-	let list = qepathType.getElementsByTagName("input");
-	let counter = 0;
-	for (let i = 0; i < list.length; i++) {
-		// const decision = list[i].checked;
-		if (list[i].checked) {
-			qepathType.classList.add("hide");
-			qepathLast.classList.remove("hide");
-			counter++;
-		}
-	}
-	if (counter == 0) {
-		qepathType.innerHTML += `<p class= "text-center red" style="font-weight: bold;" >Please select something</p>`;
-	}
-};
+// const handleType = () => {
+// 	let list = qepathType.getElementsByTagName("input");
+// 	let counter = 0;
+// 	for (let i = 0; i < list.length; i++) {
+// 		// const decision = list[i].checked;
+// 		if (list[i].checked) {
+// 			qepathType.classList.add("hide");
+// 			qepathLast.classList.remove("hide");
+// 			counter++;
+// 		}
+// 	}
+// 	if (counter == 0) {
+// 		qepathType.innerHTML += `<p class= "text-center red" style="font-weight: bold;" >Please select something</p>`;
+// 	}
+// };
 
 const handleThird = () => {
 	let list = qepathThird.getElementsByTagName("input");
@@ -112,7 +112,7 @@ const handleThird = () => {
 		// const decision = list[i].checked;
 		if (list[i].checked) {
 			qepathThird.classList.add("hide");
-			qepathType.classList.remove("hide");
+			qepathLast.classList.remove("hide");
 			// qepathLast.classList.remove("hide");
 			counter++;
 		}
